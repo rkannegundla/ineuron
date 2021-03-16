@@ -1,0 +1,105 @@
+1.What are the two values of the Boolean data type? How do you write them?
+
+True and False
+
+2. What are the three different types of Boolean operators?
+
+and , or , not
+
+3. Make a list of each Boolean operator's truth tables (i.e. every possible combination of Boolean values for the operator and what it evaluate ).
+
+True and True evaluates to True 
+True and False evaluates to False 
+False and True evaluates to False 
+False and False evaluates to False
+
+True or True evaluates to True 
+True or False evaluates to True 
+False or True evaluates to True 
+False and False evaluates to False
+
+4. What are the values of the following expressions?
+
+(5 > 4) and (3 == 5)   -  False
+not (5 > 4)    - False
+(5 > 4) or (3 == 5)  - True
+not ((5 > 4) or (3 == 5)) - False
+(True and True) and (True == False)  - False
+(not False) or (not True)  - True
+
+5. What are the six comparison operators?
+
+==
+!=
+>
+<
+>=
+<=
+
+6. How do you tell the difference between the equal to and assignment operators?Describe a
+condition and when you would use one.
+
+We use "=" for assigning value to a variable. for example  a = 10
+We use == for comparing two values or variables. for example  if (a==b).
+
+7. Identify the three blocks in this code:
+
+spam = 0
+
+first bloack :
+if spam == 10:
+print("eggs")
+
+second block :
+if spam > 5:
+print("bacon")
+
+third block :
+else:
+print("ham")
+print("spam")
+print("spam")
+
+8. Write code that prints Hello if 1 is stored in spam, prints Howdy if 2 is stored in spam, and prints
+Greetings! if anything else is stored in spam.
+
+spam = input()
+if spam == 1:
+    print("Hello")
+elif spam == 2:
+    print("Howdy")
+else:
+    print("Greetings!")
+
+9.If your programme is stuck in an endless loop, what keys you’ll press?
+
+CTRL+C
+
+10. How can you tell the difference between break and continue?
+
+When break is used, program comes out of the current loop
+When continue is used, program skips the next code and goes to next iteration in the loop.
+
+11. In a for loop, what is the difference between range(10), range(0, 10), and range(0, 10, 1)?
+
+There is no difference. All the three statements work same way.
+
+12. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent
+program that prints the numbers 1 to 10 using a while loop.
+
+for i in range(0,10,1) :
+    print(i+1)
+
+a = 1
+while(a<=10):
+    print(a)
+    a=a+1
+
+13. If you had a function named bacon() inside a module named spam, how would you call it after
+importing spam?
+
+import spam as sp
+sp.bacon()
+
+
+
